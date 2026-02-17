@@ -91,10 +91,7 @@ nav {
     height: 40px;
     width: auto;
     display: block;
-    mix-blend-mode: multiply;
-    /* Blends the logo background with the navigation/footer */
-    filter: brightness(1.1);
-    /* Ensures a clean blend on our subtle cream background */
+    filter: brightness(1.05);
 }
 
 .nav-links {
@@ -160,9 +157,9 @@ nav {
 
 /* Top Branding Section */
 .top-branding {
-    padding-top: 8rem;
+    padding-top: 5.5rem;
     padding-bottom: 0rem;
-    background-color: var(--bg-light);
+    background-color: var(--white);
     text-align: center;
 }
 
@@ -170,8 +167,7 @@ nav {
     max-width: 160px;
     width: 100%;
     height: auto;
-    mix-blend-mode: multiply;
-    filter: contrast(1.1) brightness(1.1);
+    filter: contrast(1.05) brightness(1.05);
 }
 
 .btn-secondary {
@@ -679,6 +675,11 @@ footer {
 }
 
 .footer-logo img {
+    height: 40px;
+    width: auto;
+    background-color: var(--white);
+    padding: 6px 14px;
+    border-radius: 10px;
     margin-bottom: 1rem;
 }
 
